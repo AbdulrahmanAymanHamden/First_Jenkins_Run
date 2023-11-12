@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="LoginTest" duration-ms="40197" started-at="2023-11-12T20:37:25 EET" finished-at="2023-11-12T20:38:05 EET">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40197" started-at="2023-11-12T20:37:25 EET" finished-at="2023-11-12T20:38:05 EET">
+      <class name="LoginTest">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:LoginTest@3b088d51]" name="openBrowser" is-config="true" duration-ms="29343" started-at="2023-11-12T20:37:25 EET" finished-at="2023-11-12T20:37:54 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ValidLogin()[pri:0, instance:LoginTest@3b088d51]" name="ValidLogin" duration-ms="8253" started-at="2023-11-12T20:37:54 EET" finished-at="2023-11-12T20:38:03 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLogin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:LoginTest@3b088d51]" name="closeBrowser" is-config="true" duration-ms="2491" started-at="2023-11-12T20:38:03 EET" finished-at="2023-11-12T20:38:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- LoginTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- LoginTest -->
+</testng-results>
